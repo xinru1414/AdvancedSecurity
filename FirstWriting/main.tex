@@ -1,0 +1,42 @@
+%\title{LaTeX Example: How to double space a document}
+% Based on http://tex.stackexchange.com/questions/50894/how-do-i-double-space-my-abstract-in-latex
+\documentclass[12pt]{article}
+\usepackage{setspace}   %Allows double spacing with the \doublespacing command
+\usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage{lipsum} % Add dummy text
+\begin{document}
+
+\begin{titlepage}
+	\centering
+	{\scshape\LARGE University of Minnesota Duluth \par}
+	\vspace{1cm}
+	{\scshape\Large \par}
+	\vspace{1.5cm}
+	{\huge\bfseries First Writing Assignment: Review on Instagram Hacked\par}
+	\vspace{2cm}
+	{\Large\itshape Xinru Yan\par}
+	\vspace{2cm}
+	{\Large\itshape CS8821 Fall 2017\par}
+
+	\vfill
+
+% Bottom of the page
+	{\large \today\par}
+\end{titlepage}
+
+\doublespacing
+
+\section{The Story}
+On September 1, 2017, an Instagram hack was disclosed. Among seven hundred million Instagram users, more than six million of them have been compromised, including both verified and non-verified accounts \cite{SE}\cite{CNN}. RepKnight, a cybersecurity company, identified five hundred attacked celebrity accounts including actors, musicians, athletes etc.. Note that an official Instagram account for the President of the United States of America was affected \cite{CTN}.The claimed-to-be Russian hackers started selling private account information which includes email addresses and phone numbers for ten dollars per search on the dark web called Doxagram, an Instagram lookup service, couple hours after the hack \cite{TDD}. According to the Verge, Doxagram included most of the fifty most-followed Instagram accounts on the service \cite{TV}. Facebook, which owns Instagram, purchased the domain name to take the website down. The hackers exploited a security vulnerability in the password reset option in the Instragram mobile app 2016 version which allowed them to intercept the private information during the attack \cite{CTN}. A researcher from Kaspersky Lab found the vulnerability and reported to Instagram \cite{THN}. Mike Krieger, Instagram co-founder and Chief Technical Officer, made an official statement after the attack confirming that no password or other Instagram activity was revealed \cite{INS}. 
+
+\section{Review}
+Even though according to Instagram the bug was quickly fixed, the damage can not be undone \cite{INS}. All those private information are flowing on the Internet somewhere. Users that have been affected probably will have to ditch their current phone number, email address, or both. What's more, there is no garuantee that no one will be able to use those information to create other damages in the future. It is likely that right now someone is trying to access those information. In my opinion, patching the bug for fixing security issues does not really help any. No matter how ``quickly'' the bug can be fixed, the privacy of those affected useres are gone. I wish saying ``we are very sorry this happened'' could somehow magically delete the information online. But the truth is once information is outthere, it will be outthere forever.
+
+After the hack, Instagram offered its official advice on how to protect the account including things like being vigilant about the security of your account, reporting unusual activity and turning on two-factor authentication \cite{INS}\cite{THN}. However, the security issue embedded in the app caused the damage, not incausious users. I have one piece of advice for the company too: Being vigilant about your app! The other comment I have is that according to the Hacker News, Instagram had notified users of the attack via email \cite{THN}. However I have not received such an email.
+
+\newpage
+\bibliography{main}
+\bibliographystyle{unsrt}
+
+\end{document}
