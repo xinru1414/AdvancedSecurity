@@ -1,0 +1,50 @@
+%\title{LaTeX Example: How to double space a document}
+% Based on http://tex.stackexchange.com/questions/50894/how-do-i-double-space-my-abstract-in-latex
+\documentclass[12pt]{article}
+\usepackage{setspace}   %Allows double spacing with the \doublespacing command
+\usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage{lipsum} % Add dummy text
+\begin{document}
+
+\begin{titlepage}
+	\centering
+	{\scshape\LARGE University of Minnesota Duluth \par}
+	\vspace{1cm}
+	{\scshape\Large \par}
+	\vspace{1.5cm}
+	{\huge\bfseries Second Writing Assignment: Review on Equifax Data Breach\par}
+	\vspace{2cm}
+	{\Large\itshape Xinru Yan\par}
+	\vspace{2cm}
+	{\Large\itshape CS8821 Fall 2017\par}
+
+	\vfill
+
+% Bottom of the page
+	{\large \today\par}
+\end{titlepage}
+
+\doublespacing
+
+%\section{The Story}
+On September 8th, 2017, Equifax announced a cybersecurity incident which affected 143 million consumers in the United States, which has the population of 324 million in 2017 \cite{CI}. According to several reports, the cybercriminals have gained access to personal information including names, dates of birth, addresses, social security numbers and even some driver's license numbers \cite{CI}\cite{WS}. Equifax claimed that it discovered the breach on July 29th, 2017 and the breach could have started as early as mid-May 2017, which suggested that the company had waited for three months to make it public \cite{YG}.
+
+Equifax, founded in 1899 and based in Atlanta, Georgia, is one of the three biggest consumer credit reporting agencies (CRAs) which collect information on customers, maintain and report their credit activities \cite{EQX}. 
+
+Many websites have advised people on how to protect yourself after the breach. For example, you could visit Equifax’s website to find out if your information is leaked and enroll in a year of free credit monitoring; you should freeze your credit files, which typically cost ten dollars for non victims, to prevent thieves from doing awful things like opening a new account under your name; you should pay extra attention on your bank accounts and credit cards for any suspicious activities; you should also file our tax as early as you can so that the criminals \cite{CI} \cite{AM}. Personally speaking I checked on the website soon after I heard about the breach to see if my information was stolen. I believe these steps are helpful to prevent things from going worse. However, even if you follow all these steps perfectly and successfully stopped the identity thieves further harming your bank banks, they do have your private information such as birth date and social security number which can be used against you in future attacks.
+
+Bruce Schneier, a computer security professional, wrote an CNN article suggesting that ``We can not rely on the marketplace to regulate the many companies that track our data; Only government action can protect our privacy, and it's badly needed now'' \cite{CNN}. I deeply agree with the idea of ``complaining to your government instead of a specific company that has made mistakes'' since it seems like these companies simply do not take it seriously or seriously enough to protect their customers' private information. Regulations and laws are necessary at this point.  
+
+There is an interesting discussion going on after the security incident which draws attention on the company's Chief Info Security Officer's (CISO) education background -- she has her BA and MFA in ``Music Composition'' \cite{CE}. According to CNBS, Equifax announced that the CISO will be retiring and replaced \cite{ES}. Some people believe that her non CS degree is part of the reason why this happened. Some people even believe that ``a woman diversity hire is the reason behind one of the largest hacks of financially sensitive data ever...'' \cite{AC}. From my perspective I totally disagree with both statements. Gender and major have nothing to do with this breach and are definitely not the real cause. Trying to blame it onto these details is completely nonsense and seems silly to me.    
+
+%\section{Review}
+
+
+
+
+\newpage
+\bibliography{main}
+\bibliographystyle{unsrt}
+
+\end{document}

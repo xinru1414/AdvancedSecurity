@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: unsrt.bst
+Database file #1: main.bib
+Warning--entry type for "EQX" isn't style-file defined
+--line 1 of file main.bib
+Warning--entry type for "CI" isn't style-file defined
+--line 8 of file main.bib
+Warning--entry type for "WS" isn't style-file defined
+--line 15 of file main.bib
+Warning--entry type for "YG" isn't style-file defined
+--line 29 of file main.bib
+Warning--entry type for "CNN" isn't style-file defined
+--line 36 of file main.bib
+Warning--entry type for "AM" isn't style-file defined
+--line 43 of file main.bib
+Warning--entry type for "CE" isn't style-file defined
+--line 50 of file main.bib
+Warning--entry type for "ES" isn't style-file defined
+--line 57 of file main.bib
+Warning--entry type for "AC" isn't style-file defined
+--line 64 of file main.bib
+You've used 9 entries,
+            1791 wiz_defined-function locations,
+            481 strings with 4233 characters,
+and the built_in function-call counts, 1082 in all, are:
+= -- 72
+> -- 36
+< -- 0
++ -- 18
+- -- 9
+* -- 11
+:= -- 162
+add.period$ -- 18
+call.type$ -- 9
+change.case$ -- 9
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 45
+empty$ -- 163
+format.name$ -- 9
+if$ -- 253
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 0
+newline$ -- 39
+num.names$ -- 9
+pop$ -- 63
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 36
+stack$ -- 0
+substring$ -- 0
+swap$ -- 9
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 9
+width$ -- 10
+write$ -- 74
+(There were 9 warnings)
